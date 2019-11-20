@@ -20,7 +20,7 @@ class DynamicLink implements \JsonSerializable
 
     /**
      * DynamicLink constructor.
-     * @param null $link | 	Required if you didn't set a value for the longDynamicLink parameter.
+     * @param string $link | 	Required if you didn't set a value for the longDynamicLink parameter.
     The link your app will open. You can specify a URL that your app can handle, typically an app's content/payload, which can initiate app-specific logic (such as crediting the user with a coupon or displaying a welcome screen). This link must be a well-formatted URL, be properly URL-encoded, use the HTTP or HTTPS, and not another Dynamic Link. scheme.
      * @param null $androidInfo
      * @param null $iosInfo
